@@ -1,0 +1,34 @@
+S.R.A.C is written by Sébastien ROLLAND and Anthony CHAFFOT
+
+S.R.A.C is a prompt based tool that use opensource intelligence to track the activity of a domain name on the web
+
+Dependencies : python3 -m pip install -r requirements.txt
+
+Start S.R.A.C : python3 srac.py
+
+How to use S.R.A.C ?
+
+- Select a new target or an existant one
+- Load modules (new target only)
+- Run the scan
+- Get the results
+
+Help menu : 
+
+help : print this help message
+run : run the scan
+set
+ - domain : change the domain name
+show : results
+load
+ - theHarvester : hosts, IPs and mails discovering
+ - Twitter : 5 more significant Twitter accounts
+ - all : load all available modules
+exit : return to main menu
+
+Example on a new target :
+
+set domain microsoft.com
+load Twitter
+run
+show
